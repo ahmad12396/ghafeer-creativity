@@ -1,6 +1,6 @@
+
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Instagram, Facebook, MessageCircle, Phone } from 'lucide-react';
-import profileImage from '@/assets/ghafeer-profile.jpg';
 
 const Hero = () => {
   const socialLinks = [
@@ -82,7 +82,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary glow-effect">
                 <img 
-                  src={profileImage} 
+                  src="https://i.postimg.cc/SNy3Q0w8/1726489994153.jpg" 
                   alt="Ghafeer Ahmad - Computer Science Educator"
                   className="w-full h-full object-cover"
                 />
