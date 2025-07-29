@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "2048 Game",
       description: "Classic 2048 puzzle game implemented in C++ with advanced algorithms and smooth gameplay mechanics.",
-      image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=300&fit=crop",
+      image: "https://i.postimg.cc/Fs6kfFfL/1726490143109.jpg",
       category: "Game Development",
       icon: Code2,
       technologies: ["C++", "Algorithms", "Game Logic"],
@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "Chess Game",
       description: "Full-featured chess game with AI opponent, move validation, and tournament mode capabilities.",
-      image: "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=400&h=300&fit=crop",
+      image: "https://i.postimg.cc/6TxsSGjZ/ChessSet.jpg",
       category: "Game Development",
       icon: Code2,
       technologies: ["C++", "AI Logic", "Game Theory"],
@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: "School Management System",
       description: "Comprehensive management system for educational institutions with student, teacher, and course management.",
-      image: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=300&fit=crop",
+      image: "https://i.postimg.cc/XY7309NK/images.png",
       category: "Software Development",
       icon: Database,
       technologies: ["C++", "File Handling", "Data Structures"],
