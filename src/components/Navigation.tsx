@@ -36,7 +36,13 @@ const Navigation = () => {
           </div>
 
           <div className="hidden md:block">
-            <Button variant="default" className="glow-effect">
+            <Button 
+              variant="default" 
+              className="glow-effect"
+              onClick={() => {
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Hire Me
             </Button>
           </div>
@@ -64,7 +70,14 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="default" className="mt-4 glow-effect">
+              <Button 
+                variant="default" 
+                className="mt-4 glow-effect"
+                onClick={() => {
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                  setIsOpen(false);
+                }}
+              >
                 Hire Me
               </Button>
             </div>
