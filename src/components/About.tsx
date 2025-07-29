@@ -92,12 +92,7 @@ const About = () => {
             <Button 
               className="glow-effect flex items-center gap-2"
               onClick={() => {
-                const link = document.createElement('a');
-                link.href = 'https://i.postimg.cc/kG3fdr8V/Ghafeer-CV.png';
-                link.download = 'Ghafeer-Ahmad-CV.png';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
+                window.open('https://i.postimg.cc/kG3fdr8V/Ghafeer-CV.png', '_blank');
               }}
             >
               <Download size={18} />
