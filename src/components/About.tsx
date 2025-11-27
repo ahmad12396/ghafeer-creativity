@@ -5,7 +5,7 @@ import { Download, Award, Users, Code } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Code, label: 'Years Experience', value: '3+' },
+    { icon: Code, label: 'Years Experience', value: '1+' },
     { icon: Users, label: 'Students Taught', value: '100+' },
     { icon: Award, label: 'Projects Completed', value: '15+' }
   ];

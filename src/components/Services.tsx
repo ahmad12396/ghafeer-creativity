@@ -13,14 +13,14 @@ const Services = () => {
     icon: Video,
     title: "Video Editing Services",
     description: "Professional video editing for educational content, promotional videos, and creative projects",
-    features: ["Adobe Premiere Pro expertise", "Advanced effects with Nuke", "Color grading and audio sync", "Custom animations and transitions"],
+    features: ["Adobe Premiere Pro", "Advanced effects with Nuke", "Color grading and audio sync", "Custom animations and transitions"],
     price: "Starting from ₹1000/project",
     color: "text-purple-400"
   }, {
     icon: Code,
     title: "Custom Software Development",
     description: "Build custom applications and websites tailored to your specific requirements",
-    features: ["Desktop applications in C++", "Web applications with modern tech", "Database design and management", "System architecture planning"],
+    features: ["Desktop applications in C++", "Web development with modern tech", "Python programming", "Computer Network solutions", "Database design and management"],
     price: "Quote on request",
     color: "text-green-400"
   }];
