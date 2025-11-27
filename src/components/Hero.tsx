@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-lg">
-              I have been working in education and technology since 2021. I am proficient in programming, 
+              I have been working in education and technology since 2023. I am proficient in programming, 
               design, and passionate about teaching the next generation of developers.
             </p>
 

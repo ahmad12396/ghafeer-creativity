@@ -22,6 +22,12 @@ const Skills = () => {
       skills: ["SQL Server", "Database Design", "Data Management", "System Architecture"]
     },
     {
+      title: "Computer Networks",
+      icon: Globe,
+      color: "text-orange-400",
+      skills: ["Routing", "DHCP", "VLANs", "Inter VLANs"]
+    },
+    {
       title: "Creative Tools",
       icon: Palette,
       color: "text-pink-400",
@@ -89,7 +95,7 @@ const Skills = () => {
             <h3 className="text-2xl font-semibold mb-6">Technical Proficiency</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="space-y-2">
-                <div className="text-3xl font-bold text-primary">3+</div>
+                <div className="text-3xl font-bold text-primary">1+</div>
                 <div className="text-muted-foreground">Years Experience</div>
               </div>
               <div className="space-y-2">
