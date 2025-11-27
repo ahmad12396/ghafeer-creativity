@@ -2,6 +2,7 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Github, ExternalLink, Play, Code2, Database, Globe, Video } from 'lucide-react';
+import networkInfrastructure from '@/assets/network-infrastructure.jpg';
 
 const Projects = () => {
   const projects = [
@@ -30,6 +31,15 @@ const Projects = () => {
       category: "Software Development",
       icon: Database,
       technologies: ["C++", "File Handling", "Data Structures"],
+      featured: true
+    },
+    {
+      title: "University Campus Network Infrastructure",
+      description: "Developed a University Campus Network Infrastructure using Cisco Packet Tracer, designing a multi-building network with VLANs, routing, and DHCP to enable secure and efficient communication. The project included configuring switches, servers, and WAN links, ensuring full connectivity across all departments and campus locations.",
+      image: networkInfrastructure,
+      category: "Network Infrastructure",
+      icon: Globe,
+      technologies: ["Cisco Packet Tracer", "VLANs", "Routing", "DHCP", "WAN Configuration"],
       featured: true
     },
     {
@@ -74,7 +84,7 @@ const Projects = () => {
     }
   ];
 
-  const categories = ["All", "Game Development", "Software Development", "Web Development", "Database Management", "AI & Machine Learning", "Video Production", "Graphic Design"];
+  const categories = ["All", "Game Development", "Software Development", "Web Development", "Network Infrastructure", "Database Management", "AI & Machine Learning", "Video Production", "Graphic Design"];
 
   return (
     <section id="projects" className="py-20">
