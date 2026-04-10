@@ -90,15 +90,12 @@ const About = () => {
               </div>
             </div>
 
-            <Button 
-              className="glow-effect flex items-center gap-2"
-              onClick={() => {
-                window.open('https://i.postimg.cc/kG3fdr8V/Ghafeer-CV.png', '_blank');
-              }}
-            >
-              <Download size={18} />
-              Download Resume
-            </Button>
+            <a href="/Ghafeer-Ahmad-CV.pdf" download="Ghafeer-Ahmad-CV.pdf">
+              <Button className="glow-effect flex items-center gap-2">
+                <Download size={18} />
+                Download Resume
+              </Button>
+            </a>
           </div>
         </div>
       </div>
