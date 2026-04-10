@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Download, Award, Users, Code } from 'lucide-react';
+import profilePhoto from '@/assets/profile-photo.jpg';
 
 const About = () => {
   const stats = [
@@ -18,7 +19,7 @@ const About = () => {
           <div className="space-y-8">
             <div className="relative">
               <img 
-                src="https://i.postimg.cc/SNy3Q0w8/1726489994153.jpg"
+                src={profilePhoto}
                 alt="Ghafeer Ahmad About"
                 className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
               />
