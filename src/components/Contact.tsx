@@ -56,7 +56,14 @@ const Contact = () => {
     
     try {
       // Initialize EmailJS with your public key
-      emailjs.init('WyU9k9o84N_JmU7fu');
+      emailjs.init({
+        publicKey: 'WyU9k9o84N_JmU7fu',
+        blockHeadless: true,
+        limitRate: {
+          id: 'app',
+          throttle: 10000,
+        },
+      });
       
       // Send email using EmailJS
       await emailjs.send(
